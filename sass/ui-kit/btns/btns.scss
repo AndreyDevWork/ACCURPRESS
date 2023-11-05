@@ -1,0 +1,23 @@
+.white-btn {
+  border-radius: 300px;
+  border: 2px solid #FFF;
+  padding: 0 20px;
+  color: #FFF;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn {
+  color: #FFF;
+  background: $red;
+  border-radius: 3px;
+  padding: 0 30px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}

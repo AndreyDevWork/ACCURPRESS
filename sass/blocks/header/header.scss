@@ -1,0 +1,16 @@
+.header {
+  height: 115px;
+  background: $black;
+  position: sticky;
+  top: 0;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  &__contacts {
+    display: flex;
+    column-gap: 15px;
+  }
+}

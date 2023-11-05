@@ -1,0 +1,19 @@
+.nav {
+  &__list {
+    display: flex;
+    column-gap: 35px;
+    margin-bottom: 0px;
+    padding-left: 0;
+  }
+  &__link {
+    color: #FFF;
+    font-family: TT Firs Neue;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

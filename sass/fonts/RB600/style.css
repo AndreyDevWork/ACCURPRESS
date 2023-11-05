@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Roboto 2014';
+    src: local('Roboto 2014 Bold'), local('Roboto-2014-Bold'),
+        url('Roboto-Bold.woff2') format('woff2'),
+        url('Roboto-Bold.woff') format('woff'),
+        url('Roboto-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
