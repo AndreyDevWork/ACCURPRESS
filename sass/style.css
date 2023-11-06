@@ -681,6 +681,15 @@ a:hover {
   color: #1C1C1C;
 }
 
+.title18 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130.5%;
+  margin-bottom: 0;
+  color: #1C1C1C;
+}
+
 .title16 {
   font-size: 16px;
   font-style: normal;
@@ -832,6 +841,10 @@ a:hover {
   column-gap: 25px;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.equipment__head {
+  display: flex;
+  justify-content: space-between;
+}
 
 .card {
   padding: 15px 20px;
@@ -860,6 +873,23 @@ a:hover {
   display: flex;
   align-items: center;
   column-gap: 15px;
+}
+
+.get {
+  background: url("/img/get-bg.jpg") center center/cover no-repeat;
+  min-height: 410px;
+}
+.get__wrapper {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.get__header {
+  max-width: 950px;
+}
+.get__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
 }
 
 /*# sourceMappingURL=style.css.map */

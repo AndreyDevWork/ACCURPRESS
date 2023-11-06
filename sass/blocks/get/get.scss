@@ -1,0 +1,16 @@
+.get {
+  background: url("/img/get-bg.jpg") center center/cover no-repeat;
+  min-height: 410px;
+  &__wrapper {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  &__header {
+    max-width: 950px;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+  }
+}
