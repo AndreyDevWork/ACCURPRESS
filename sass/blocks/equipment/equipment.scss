@@ -1,0 +1,12 @@
+.equipment {
+  background: #FCFCFC;
+  &__wrapper {
+    padding-top: 90px;
+    padding-bottom: 85px;
+  }
+  &__content {
+    display: grid;
+    column-gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

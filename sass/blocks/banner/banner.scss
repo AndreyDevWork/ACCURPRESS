@@ -1,5 +1,18 @@
 .banner {
-  background: #292929;
+  width: 100%;
+  background: url("/img/banner-bg.jpg") center center/cover no-repeat;
   min-height: 600px;
-  background-image: url("/img/banner-bg.png");
+  &__wrapper {
+    padding-top: 125px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+  }
+  &__header {
+    max-width: 850px;
+  }
+  &__descr {
+    max-width: 664px;
+  }
 }

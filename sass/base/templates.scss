@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto';
+  font-family: TT Firs Neue;
 }
 
 html {
@@ -15,9 +15,17 @@ body {
 
 a {
   color: $black;
-  text-underline-offset: 5px;
+  text-underline-offset: 2px;
   &:hover {
     text-decoration: none;
   }
 }
 
+
+
+
+.object-fit {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
