@@ -1000,6 +1000,7 @@ a:hover {
   column-gap: 35px;
   margin-bottom: 0px;
   padding-left: 0;
+  list-style-type: none;
 }
 .nav__link {
   text-transform: uppercase;
@@ -1145,6 +1146,14 @@ a:hover {
   background: #F6F6F6;
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  background: #1C1C1C;
 }
 
 /*# sourceMappingURL=style.css.map */
