@@ -223,7 +223,20 @@
                     <div class="title18 roboto white light">Оставьте заявку, и наш специалист вам перезвонит</div>
                 </div>
                 <form action="#" class="get__form">
-
+                    <input placeholder="Ваше имя*" required class="input get__input" id="name" name="name" type="text">
+                    <input placeholder="Телефон*" required class="input get__input" id="phone" name="phone" type="text">
+                    <input placeholder="Email*" required class="input get__input" id="email" name="email" type="email">
+                    <div class="get__group">
+                        <button class="btn get__btn" type="submit">Получить</button>
+                        <div class="control-group">
+                            <label class="control control-checkbox">
+                                <span class="title12 white check-box-span light">Я соглашаюсь на обработку <a class="light title12 white"
+                                        href="#">персональных данных</a></span>
+                                <input required type="checkbox" />
+                                <div class="control_indicator"></div>
+                            </label>
+                        </div>
+                    </div>
                 </form>
             </div>
         </section>
@@ -231,11 +244,101 @@
 
     <section class="action">
         <div class="container action__wrapper">
-            <h1 class="title46 bold">Оборудование <span class="red">Accurpress</span></h1>
+            <div class="action__head">
+                <h1 class="title46 bold">Оборудование <span class="red">Accurpress</span></h1>
+                <div class="action__arrows">
+                    <div class="arrow arrow-left">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="71" height="71" viewBox="0 0 71 71" fill="none">
+                            <circle cx="35.5" cy="35.5" r="35.5" fill="#F6F6F6"/>
+                            <path d="M39 30L32 36.5L39 43" stroke="#AF0202" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div class="arrow arrow-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="71" height="71" viewBox="0 0 71 71" fill="none">
+                            <g clip-path="url(#clip0_52_870)">
+                                <circle cx="35.5" cy="35.5" r="35.5" transform="rotate(180 35.5 35.5)" fill="#F6F6F6"/>
+                                <path d="M32 41L39 34.5L32 28" stroke="#AF0202" stroke-width="2"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_52_870">
+                                    <rect width="71" height="71" fill="white" transform="matrix(-1 0 0 -1 71 71)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
             <div class="action__slider">
                 <div class="action__slide">
                     <div class="action__img">
-                        <img src="" alt="img" class="object-fit">
+                        <div class="action__play">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                                    <path d="M31.5 52.5C19.9237 52.5 10.5 43.0762 10.5 31.5C10.5 19.9237 19.9237 10.5 31.5 10.5C43.0762 10.5 52.5 19.9237 52.5 31.5C52.5 43.0762 43.0762 52.5 31.5 52.5ZM31.5 5.25C28.0528 5.25 24.6394 5.92898 21.4546 7.24816C18.2698 8.56735 15.376 10.5009 12.9384 12.9384C8.01562 17.8613 5.25 24.5381 5.25 31.5C5.25 38.4619 8.01562 45.1387 12.9384 50.0616C15.376 52.4991 18.2698 54.4327 21.4546 55.7518C24.6394 57.071 28.0528 57.75 31.5 57.75C38.4619 57.75 45.1387 54.9844 50.0616 50.0616C54.9844 45.1387 57.75 38.4619 57.75 31.5C57.75 28.0528 57.071 24.6394 55.7518 21.4546C54.4327 18.2698 52.4991 15.376 50.0616 12.9384C47.624 10.5009 44.7302 8.56735 41.5454 7.24816C38.3606 5.92898 34.9472 5.25 31.5 5.25ZM26.25 43.3125L42 31.5L26.25 19.6875V43.3125Z" fill="#AF0202"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <img src="/img/action/slide1.png" alt="img" class="object-fit">
+                    </div>
+                    <div class="action__title title24 roboto">
+                        Пользовательское ускорение
+                    </div>
+                </div>
+                <div class="action__slide">
+                    <div class="action__img">
+                        <div class="action__play">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                                    <path d="M31.5 52.5C19.9237 52.5 10.5 43.0762 10.5 31.5C10.5 19.9237 19.9237 10.5 31.5 10.5C43.0762 10.5 52.5 19.9237 52.5 31.5C52.5 43.0762 43.0762 52.5 31.5 52.5ZM31.5 5.25C28.0528 5.25 24.6394 5.92898 21.4546 7.24816C18.2698 8.56735 15.376 10.5009 12.9384 12.9384C8.01562 17.8613 5.25 24.5381 5.25 31.5C5.25 38.4619 8.01562 45.1387 12.9384 50.0616C15.376 52.4991 18.2698 54.4327 21.4546 55.7518C24.6394 57.071 28.0528 57.75 31.5 57.75C38.4619 57.75 45.1387 54.9844 50.0616 50.0616C54.9844 45.1387 57.75 38.4619 57.75 31.5C57.75 28.0528 57.071 24.6394 55.7518 21.4546C54.4327 18.2698 52.4991 15.376 50.0616 12.9384C47.624 10.5009 44.7302 8.56735 41.5454 7.24816C38.3606 5.92898 34.9472 5.25 31.5 5.25ZM26.25 43.3125L42 31.5L26.25 19.6875V43.3125Z" fill="#AF0202"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <img src="/img/action/slide2.png" alt="img" class="object-fit">
+                    </div>
+                    <div class="action__title title24 roboto">
+                        Регулируемый прицел штампа
+                    </div>
+                </div>
+                <div class="action__slide">
+                    <div class="action__img">
+                        <div class="action__play">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                                    <path d="M31.5 52.5C19.9237 52.5 10.5 43.0762 10.5 31.5C10.5 19.9237 19.9237 10.5 31.5 10.5C43.0762 10.5 52.5 19.9237 52.5 31.5C52.5 43.0762 43.0762 52.5 31.5 52.5ZM31.5 5.25C28.0528 5.25 24.6394 5.92898 21.4546 7.24816C18.2698 8.56735 15.376 10.5009 12.9384 12.9384C8.01562 17.8613 5.25 24.5381 5.25 31.5C5.25 38.4619 8.01562 45.1387 12.9384 50.0616C15.376 52.4991 18.2698 54.4327 21.4546 55.7518C24.6394 57.071 28.0528 57.75 31.5 57.75C38.4619 57.75 45.1387 54.9844 50.0616 50.0616C54.9844 45.1387 57.75 38.4619 57.75 31.5C57.75 28.0528 57.071 24.6394 55.7518 21.4546C54.4327 18.2698 52.4991 15.376 50.0616 12.9384C47.624 10.5009 44.7302 8.56735 41.5454 7.24816C38.3606 5.92898 34.9472 5.25 31.5 5.25ZM26.25 43.3125L42 31.5L26.25 19.6875V43.3125Z" fill="#AF0202"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <img src="/img/action/slide3.png" alt="img" class="object-fit">
+                    </div>
+                    <div class="action__title title24 roboto">
+                        Автоматизация прессовых тормозов
+                    </div>
+                </div>
+                <div class="action__slide">
+                    <div class="action__img">
+                        <div class="action__play">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                                    <path d="M31.5 52.5C19.9237 52.5 10.5 43.0762 10.5 31.5C10.5 19.9237 19.9237 10.5 31.5 10.5C43.0762 10.5 52.5 19.9237 52.5 31.5C52.5 43.0762 43.0762 52.5 31.5 52.5ZM31.5 5.25C28.0528 5.25 24.6394 5.92898 21.4546 7.24816C18.2698 8.56735 15.376 10.5009 12.9384 12.9384C8.01562 17.8613 5.25 24.5381 5.25 31.5C5.25 38.4619 8.01562 45.1387 12.9384 50.0616C15.376 52.4991 18.2698 54.4327 21.4546 55.7518C24.6394 57.071 28.0528 57.75 31.5 57.75C38.4619 57.75 45.1387 54.9844 50.0616 50.0616C54.9844 45.1387 57.75 38.4619 57.75 31.5C57.75 28.0528 57.071 24.6394 55.7518 21.4546C54.4327 18.2698 52.4991 15.376 50.0616 12.9384C47.624 10.5009 44.7302 8.56735 41.5454 7.24816C38.3606 5.92898 34.9472 5.25 31.5 5.25ZM26.25 43.3125L42 31.5L26.25 19.6875V43.3125Z" fill="#AF0202"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <img src="/img/action/slide1.png" alt="img" class="object-fit">
+                    </div>
+                    <div class="action__title title24 roboto">
+                        Пользовательское ускорение
+                    </div>
+                </div>
+                <div class="action__slide">
+                    <div class="action__img">
+                        <div class="action__play">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                                    <path d="M31.5 52.5C19.9237 52.5 10.5 43.0762 10.5 31.5C10.5 19.9237 19.9237 10.5 31.5 10.5C43.0762 10.5 52.5 19.9237 52.5 31.5C52.5 43.0762 43.0762 52.5 31.5 52.5ZM31.5 5.25C28.0528 5.25 24.6394 5.92898 21.4546 7.24816C18.2698 8.56735 15.376 10.5009 12.9384 12.9384C8.01562 17.8613 5.25 24.5381 5.25 31.5C5.25 38.4619 8.01562 45.1387 12.9384 50.0616C15.376 52.4991 18.2698 54.4327 21.4546 55.7518C24.6394 57.071 28.0528 57.75 31.5 57.75C38.4619 57.75 45.1387 54.9844 50.0616 50.0616C54.9844 45.1387 57.75 38.4619 57.75 31.5C57.75 28.0528 57.071 24.6394 55.7518 21.4546C54.4327 18.2698 52.4991 15.376 50.0616 12.9384C47.624 10.5009 44.7302 8.56735 41.5454 7.24816C38.3606 5.92898 34.9472 5.25 31.5 5.25ZM26.25 43.3125L42 31.5L26.25 19.6875V43.3125Z" fill="#AF0202"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <img src="/img/action/slide1.png" alt="img" class="object-fit">
                     </div>
                     <div class="action__title title24 roboto">
                         Пользовательское ускорение
@@ -250,5 +353,5 @@
 
     </footer>
 </body>
-    <script src="/sass/ui-kit/tabs/tabs.js"></script>
+    <script src="/bundle/bundle.js"></script>
 </html>

@@ -13,4 +13,20 @@
     flex-direction: column;
     row-gap: 13px;
   }
+  &__form {
+    margin-top: 33px;
+    display: flex;
+    column-gap: 35px;
+  }
+  &__group {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+  }
+  &__input {
+    max-width: 320px;
+  }
+  &__btn {
+    width: 225px;
+  }
 }
