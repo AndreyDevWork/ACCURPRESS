@@ -563,6 +563,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   justify-content: space-between;
+  background: #FCFCFC;
 }
 
 a {
@@ -890,6 +891,19 @@ a:hover {
   display: flex;
   flex-direction: column;
   row-gap: 13px;
+}
+
+.action__wrapper {
+  padding-top: 93px;
+  padding-bottom: 77px;
+}
+.action__slider {
+  margin-top: 25px;
+  max-height: 350px;
+  height: 100%;
+}
+.action__title {
+  margin-top: 28px;
 }
 
 /*# sourceMappingURL=style.css.map */
