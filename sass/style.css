@@ -1141,4 +1141,10 @@ a:hover {
   transform: translateX(-50%) translateY(-50%);
 }
 
+.service {
+  background: #F6F6F6;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 /*# sourceMappingURL=style.css.map */
