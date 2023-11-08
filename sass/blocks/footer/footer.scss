@@ -1,7 +1,28 @@
 .footer {
   padding-top: 80px;
   padding-bottom: 70px;
-  display: flex;
-  justify-content: space-between;
   background: $black;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  &__kontur {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }

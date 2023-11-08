@@ -2,6 +2,7 @@
   height: 115px;
   background: $black;
   position: sticky;
+  z-index: 1;
   top: 0;
   &__wrapper {
     display: flex;

@@ -9,6 +9,16 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./js/accordion.js":
+/*!*************************!*\
+  !*** ./js/accordion.js ***!
+  \*************************/
+/***/ (() => {
+
+eval("document.addEventListener('DOMContentLoaded', () => {\r\n    const btns = document.querySelectorAll('[data-accordion-btn]')\r\n    const bodies = document.querySelectorAll('[data-accordion-body]')\r\n    const sircles = document.querySelectorAll('[data-accordion-sircle]')\r\n\r\n    btns.forEach((btn, i) => {\r\n        btn.addEventListener('click', () => {\r\n            sircles[i].classList.toggle('accordion__sircle_active');\r\n            bodies[i].classList.toggle('accordion__body_active');\r\n        });\r\n    });\r\n});\n\n//# sourceURL=webpack://ctm-bitrix/./js/accordion.js?");
+
+/***/ }),
+
 /***/ "./js/action_slider.js":
 /*!*****************************!*\
   !*** ./js/action_slider.js ***!
@@ -27,7 +37,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jque
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_ui_kit_tabs_tabs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../sass/ui-kit/tabs/tabs */ \"./sass/ui-kit/tabs/tabs.js\");\n/* harmony import */ var _sass_ui_kit_tabs_tabs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_sass_ui_kit_tabs_tabs__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _phone_mask__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./phone_mask */ \"./js/phone_mask.js\");\n/* harmony import */ var _action_slider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./action_slider */ \"./js/action_slider.js\");\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://ctm-bitrix/./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_ui_kit_tabs_tabs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../sass/ui-kit/tabs/tabs */ \"./sass/ui-kit/tabs/tabs.js\");\n/* harmony import */ var _sass_ui_kit_tabs_tabs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_sass_ui_kit_tabs_tabs__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _phone_mask__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./phone_mask */ \"./js/phone_mask.js\");\n/* harmony import */ var _action_slider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./action_slider */ \"./js/action_slider.js\");\n/* harmony import */ var _accordion__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./accordion */ \"./js/accordion.js\");\n/* harmony import */ var _accordion__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_accordion__WEBPACK_IMPORTED_MODULE_3__);\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://ctm-bitrix/./js/index.js?");
 
 /***/ }),
 

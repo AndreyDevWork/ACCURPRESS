@@ -1,0 +1,49 @@
+.accordion {
+  &__item:first-child {
+    border-top: 1px solid #D3D3D3;
+  }
+  &__item {
+    min-height: 70px;
+    border-bottom: 1px solid #D3D3D3;
+  }
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    height: 70px;
+  }
+  &__sircle {
+    width: 53px;
+    border-radius: 100%;
+    height: 53px;
+    background: $black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s all linear;
+    border: 2px solid $black;
+    path {
+      transition: 0.2s all linear;
+    }
+  }
+  &__body {
+    max-width: 1380px;
+    margin-bottom: 0px;
+    transition: 0.2s all linear;
+    overflow: hidden;
+    max-height: 0px;;
+  }
+
+  &__sircle_active {
+    transform: rotate(180deg);
+    background: #F6F6F6;
+    path {
+      stroke: $black
+    }
+  }
+  &__body_active {
+    max-height: 500px;
+    margin-bottom: 20px;
+  }
+}
