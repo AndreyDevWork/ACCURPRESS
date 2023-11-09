@@ -574,10 +574,29 @@ a:hover {
   text-decoration: none;
 }
 
+.display-none {
+  display: none;
+}
+
 .object-fit {
   object-fit: cover;
   height: 100%;
   width: 100%;
+}
+
+.underline {
+  text-decoration: underline;
+}
+.underline:hover {
+  text-decoration: none;
+}
+
+.underline-none {
+  text-decoration: none;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .container {
@@ -664,6 +683,14 @@ a:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 130.523%;
+  margin-bottom: 0;
+  color: #1C1C1C;
+}
+
+.title25 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
   margin-bottom: 0;
   color: #1C1C1C;
 }
@@ -794,6 +821,10 @@ a:hover {
   outline: 1px solid #243d24;
 }
 
+textarea.input {
+  height: 133px;
+}
+
 .control {
   display: flex;
   position: relative;
@@ -828,12 +859,12 @@ a:hover {
 }
 
 .control input:checked ~ .control_indicator {
-  background: #2aa1c0;
+  background: #1C1C1C;
 }
 
 .control:hover input:not([disabled]):checked ~ .control_indicator,
 .control input:checked:focus ~ .control_indicator {
-  background: #0e6647;
+  background: #1C1C1C;
 }
 
 .control input:disabled ~ .control_indicator {
@@ -1237,6 +1268,53 @@ a:hover {
 }
 .form__left {
   max-width: 677px;
+}
+.form__input {
+  border: 1px solid #B8B8B8;
+}
+.form__form {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.form__label {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+.form__btn {
+  width: 227px;
+}
+
+.contacts {
+  max-width: 767px;
+  height: 100%;
+  min-height: 603px;
+  width: 100%;
+  background: #AF0202;
+  padding: 39px 25px 45px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contacts__label {
+  color: rgba(255, 255, 255, 0.71);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130.5%;
+}
+.contacts__one {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.contacts__block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

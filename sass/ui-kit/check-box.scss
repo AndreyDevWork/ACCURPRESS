@@ -29,11 +29,11 @@
 }
 
 .control input:checked ~ .control_indicator {
-  background: #2aa1c0;
+  background: $black;
 }
 .control:hover input:not([disabled]):checked ~ .control_indicator,
 .control input:checked:focus ~ .control_indicator {
-  background: #0e6647;
+  background: $black;;
 }
 .control input:disabled ~ .control_indicator {
   background: #e6e6e6;

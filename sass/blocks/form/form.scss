@@ -7,4 +7,22 @@
   &__left {
     max-width: 677px;
   }
+  &__input {
+    border: 1px solid #B8B8B8;
+  }
+  &__form {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  &__label {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    cursor: pointer;
+  }
+  &__btn {
+    width: 227px;
+  }
 }
