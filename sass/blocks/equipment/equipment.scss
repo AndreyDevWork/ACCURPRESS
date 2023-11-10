@@ -8,6 +8,7 @@
     display: grid;
     column-gap: 25px;
     grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 70px;
   }
   &__head {
     display: flex;

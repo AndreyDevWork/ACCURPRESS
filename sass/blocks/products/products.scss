@@ -1,0 +1,14 @@
+.products {
+  padding-top: 80px;
+  &__wrapper {
+    display: grid;
+    column-gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 70px;
+  }
+  &__ones {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
