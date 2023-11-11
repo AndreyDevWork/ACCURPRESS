@@ -2,12 +2,20 @@ import $ from "jquery";
 import 'slick-carousel';
 
 document.addEventListener('DOMContentLoaded', () => {
-    $('.action__slider').slick({
+    $('.action .action__slider').slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3,
-        prevArrow: $('.arrow-left'),
-        nextArrow: $('.arrow-right')
+        prevArrow: $('.action .arrow-left'),
+        nextArrow: $('.action .arrow-right')
+    });
 
+
+    $('.partner .action__slider').slick({
+        infinite: true,
+        slidesToShow: 6,
+        slidesToScroll: 6,
+        prevArrow: $('.partner .arrow-left'),
+        nextArrow: $('.partner .arrow-right')
     });
 });

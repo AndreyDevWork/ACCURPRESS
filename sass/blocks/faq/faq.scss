@@ -1,0 +1,45 @@
+.faq {
+  padding-bottom: 85px;
+  &__descr {
+    color: #565656;
+  }
+  &__head {
+    background: #F2F2F2;
+    padding-left: 30px;
+    padding-right: 10px;
+    height: 60px;
+  }
+  &__item {
+    border: none;
+  }
+  &__item:first-child {
+    border: none;
+  }
+  &__body {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 85px;
+  }
+  &__accordion {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 20px;
+  }
+  &__sircle {
+    width: 35px;
+    height: 35px;
+    stroke-width: 2px;
+    background: $red;
+    border: 2px solid $red;
+  }
+  .accordion__sircle_active {
+    background: #F2F2F2;
+    .white {
+      display: none;
+    }
+    .display-none {
+      display: block;
+    }
+  }
+}

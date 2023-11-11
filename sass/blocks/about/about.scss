@@ -1,0 +1,17 @@
+.about {
+  padding-top: 50px;
+  padding-bottom: 85px;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: minmax(300px, 806px) minmax(300px, 645px);
+    column-gap: 60px;
+  }
+  &__img {
+    max-height: 566px;
+  }
+  &__slider {
+    .object-fit {
+      object-fit: contain;
+    }
+  }
+}
