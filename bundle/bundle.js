@@ -15,7 +15,7 @@
   \*************************/
 /***/ (() => {
 
-eval("document.addEventListener('DOMContentLoaded', () => {\r\n    const btns = document.querySelectorAll('[data-accordion-btn]')\r\n    const bodies = document.querySelectorAll('[data-accordion-body]')\r\n    const sircles = document.querySelectorAll('[data-accordion-sircle]')\r\n\r\n    btns.forEach((btn, i) => {\r\n        btn.addEventListener('click', () => {\r\n            sircles[i].classList.toggle('accordion__sircle_active');\r\n            bodies[i].classList.toggle('accordion__body_active');\r\n        });\r\n    });\r\n});\n\n//# sourceURL=webpack://ctm-bitrix/./js/accordion.js?");
+eval("document.addEventListener('DOMContentLoaded', () => {\r\n    const btns = document.querySelectorAll('[data-accordion-btn]')\r\n    const bodies = document.querySelectorAll('[data-accordion-body]')\r\n    const sircles = document.querySelectorAll('[data-accordion-sircle]')\r\n\r\n    if(btns) {\r\n        btns.forEach((btn, i) => {\r\n            btn.addEventListener('click', () => {\r\n                sircles[i].classList.toggle('accordion__sircle_active');\r\n                bodies[i].classList.toggle('accordion__body_active');\r\n            });\r\n        });\r\n    }\r\n});\n\n//# sourceURL=webpack://ctm-bitrix/./js/accordion.js?");
 
 /***/ }),
 
@@ -47,7 +47,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sas
   \**************************/
 /***/ (() => {
 
-eval("document.addEventListener('DOMContentLoaded', () => {\r\n   const input = document.querySelector('[data-input-file]');\r\n   const label = document.querySelector('[data-label-file]');\r\n\r\n   input.addEventListener('change', () => {\r\n      label.textContent = 'Файл прикреплен';\r\n   });\r\n});\n\n//# sourceURL=webpack://ctm-bitrix/./js/input_file.js?");
+eval("document.addEventListener('DOMContentLoaded', () => {\r\n   const input = document.querySelector('[data-input-file]');\r\n   const label = document.querySelector('[data-label-file]');\r\n\r\n   if(input) {\r\n      input.addEventListener('change', () => {\r\n         label.textContent = 'Файл прикреплен';\r\n      });\r\n   }\r\n});\n\n//# sourceURL=webpack://ctm-bitrix/./js/input_file.js?");
 
 /***/ }),
 
@@ -58,7 +58,7 @@ eval("document.addEventListener('DOMContentLoaded', () => {\r\n   const input = 
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var imask__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! imask */ \"./node_modules/imask/esm/index.js\");\n\r\n\r\ndocument.addEventListener(\"DOMContentLoaded\", function() {\r\n    const phoneInput = document.getElementById(\"phone\");\r\n\r\n    const phoneMask = (0,imask__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(phoneInput, {\r\n        mask: '{0}-(000)-000-00-00' // Define your desired mask pattern\r\n    });\r\n});\n\n//# sourceURL=webpack://ctm-bitrix/./js/phone_mask.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var imask__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! imask */ \"./node_modules/imask/esm/index.js\");\n\r\n\r\ndocument.addEventListener(\"DOMContentLoaded\", function() {\r\n    const phoneInput = document.getElementById(\"phone\");\r\n\r\n    if(phoneInput) {\r\n        const phoneMask = (0,imask__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(phoneInput, {\r\n            mask: '{0}-(000)-000-00-00' // Define your desired mask pattern\r\n        });\r\n    }\r\n});\n\n//# sourceURL=webpack://ctm-bitrix/./js/phone_mask.js?");
 
 /***/ }),
 

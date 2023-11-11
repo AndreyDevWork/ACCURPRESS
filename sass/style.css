@@ -1063,6 +1063,9 @@ textarea.input {
   transition: 0.2s all linear;
   border: 2px solid #1C1C1C;
 }
+.accordion__sircle .title28 {
+  line-height: 1px;
+}
 .accordion__sircle path {
   transition: 0.2s all linear;
 }
@@ -1474,6 +1477,51 @@ textarea.input {
 }
 .faq .accordion__sircle_active .display-none {
   display: block;
+}
+
+.cart {
+  padding-top: 25px;
+}
+.cart .breadcrumbs {
+  text-align: left;
+  margin-bottom: 35px;
+}
+.cart__wrapper {
+  margin-top: 25px;
+  position: relative;
+}
+.cart__promo {
+  max-width: 1140px;
+  padding: 23px 67px 24px 66px;
+  background: rgba(255, 255, 255, 0.81);
+  position: absolute;
+  top: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.cart__info {
+  display: flex;
+  column-gap: 13px;
+  max-width: 303px;
+}
+.cart__icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #AF0202;
+  border-radius: 100%;
+  flex-shrink: 0;
+}
+.cart__label {
+  color: #565656;
+}
+.cart__text {
+  padding-top: 7px;
 }
 
 /*# sourceMappingURL=style.css.map */
