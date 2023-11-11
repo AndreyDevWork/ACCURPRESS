@@ -6,3 +6,17 @@
     margin-top: 35px;
   }
 }
+
+.service2 {
+  padding-top: 50px;
+  padding-bottom: 110px;
+  background: #FCFCFC;
+  .accordion__item:first-child {
+    border-top: none;
+  }
+  .accordion__item {
+    .title16 {
+      color: #565656;
+    }
+  }
+}

@@ -1272,6 +1272,18 @@ textarea.input {
   margin-top: 35px;
 }
 
+.service2 {
+  padding-top: 50px;
+  padding-bottom: 110px;
+  background: #FCFCFC;
+}
+.service2 .accordion__item:first-child {
+  border-top: none;
+}
+.service2 .accordion__item .title16 {
+  color: #565656;
+}
+
 .footer {
   padding-top: 80px;
   padding-bottom: 70px;
