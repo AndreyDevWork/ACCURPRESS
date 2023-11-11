@@ -34,4 +34,8 @@
   font-weight: 600;
   width: max-content;
   text-transform: uppercase;
+  transition: 0.2s all linear;
+  &:hover {
+    box-shadow: 1px 9px 17px 0px rgba(34, 60, 80, 0.2);
+  }
 }

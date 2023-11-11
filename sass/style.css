@@ -583,7 +583,7 @@ h4 {
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p {
@@ -691,6 +691,10 @@ a:hover {
   font-weight: 600;
   width: max-content;
   text-transform: uppercase;
+  transition: 0.2s all linear;
+}
+.btn:hover {
+  box-shadow: 1px 9px 17px 0px rgba(34, 60, 80, 0.2);
 }
 
 .title46 {
@@ -863,6 +867,7 @@ a:hover {
 
 textarea.input {
   height: 133px;
+  padding-top: 13px;
 }
 
 .control {
@@ -1522,6 +1527,101 @@ textarea.input {
 }
 .cart__text {
   padding-top: 7px;
+}
+
+.product {
+  padding-top: 25px;
+  padding-bottom: 60px;
+}
+.product .breadcrumbs {
+  text-align: left;
+}
+.product__wrapper {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 290px minmax(300px, 1152px);
+  column-gap: 80px;
+}
+.product__head {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product__head .btn {
+  height: 58px;
+  width: 283px;
+  text-align: center;
+}
+.product__contents {
+  width: 100%;
+  padding: 50px 40px 35px 40px;
+  position: relative;
+  border: 1px solid #F1F1F1;
+}
+.product__content {
+  display: none;
+}
+.product [data-product-content] {
+  display: block;
+}
+.product__slider-img {
+  width: 767px;
+  height: 479px;
+}
+.product__slider-flex {
+  width: 767px;
+  height: 479px;
+}
+.product__slider-wr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product__descr {
+  margin-top: 25px;
+}
+.product__subtitle {
+  margin-bottom: 10px;
+}
+
+.product-menu {
+  width: 100%;
+  background: #F6F6F6;
+  height: max-content;
+  padding-bottom: 25px;
+}
+.product-menu__item {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 30px;
+  cursor: pointer;
+  transition: 0.2s all linear;
+}
+.product-menu__item:hover {
+  background: #dadada;
+}
+.product-menu_active {
+  background: #AF0202;
+  position: relative;
+}
+.product-menu_active:after {
+  content: "";
+  height: 13px;
+  width: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  position: absolute;
+  background: url(/icons/arrow-right.svg) center center/cover no-repeat;
+}
+.product-menu_active:hover {
+  background: #AF0202;
+}
+.product-menu_active .title16 {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
