@@ -19,3 +19,16 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .equipment {
+    &__wrapper {
+      padding-top: 40px;
+      padding-bottom: 50px;
+    }
+    &__head {
+      flex-direction: column;
+      row-gap: 15px;
+    }
+  }
+}

@@ -3,3 +3,39 @@
     min-height: 550px;
   }
 }
+
+@media (max-width: 768px) {
+  .contacts {
+    position: relative;
+    padding: 40px 2px 35px 2px;
+    min-height: 535px;
+    &:after {
+      content: '';
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background: $red;
+      top: 0;
+      right: -99.5%;
+    }
+    &:before {
+      content: '';
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background: $red;
+      top: 0;
+      left: -99.5%;
+    }
+    .title25 {
+      font-size: 28px;
+    }
+    &__one {
+      row-gap: 10px;
+      .title25 {
+        font-size: 24px;
+        line-height: 42px;
+      }
+    }
+  }
+}

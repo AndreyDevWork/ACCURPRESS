@@ -1,0 +1,14 @@
+
+
+
+@media (max-width: 768px) {
+  .tabs {
+    &__list {
+      flex-direction: column;
+      height: auto;
+    }
+    &__content-list {
+      margin-top: 20px;
+    }
+  }
+}

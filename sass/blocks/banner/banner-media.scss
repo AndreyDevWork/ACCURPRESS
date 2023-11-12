@@ -14,3 +14,13 @@
 
   }
 }
+
+@media (max-width: 768px) {
+  .banner {
+    &__wrapper {
+      padding-top: 55px;
+      padding-bottom: 75px;
+    }
+
+  }
+}

@@ -18,3 +18,27 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .get {
+    &__wrapper {
+      padding-top: 40px;
+      padding-bottom: 50px;
+    }
+    &__form {
+      grid-template-columns: 1fr;
+    }
+    &__group {
+      flex-direction: column;
+      row-gap: 20px;
+      justify-content: start;
+      align-items: start;
+    }
+    &__btn {
+      width: 100%;
+    }
+    .control {
+      max-width: 100%;
+    }
+  }
+}
