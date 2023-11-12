@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jque
   \*************************/
 /***/ (() => {
 
-eval("document.addEventListener('DOMContentLoaded', () => {\r\n   const hum = document.querySelector('.header__humburger');\r\n   const spans = document.querySelectorAll('.header__span');\r\n\r\n   hum.addEventListener('click', () => {\r\n      hum.classList.toggle('header__humburger_active');\r\n      spans.forEach(span => span.classList.toggle('header__span_active'));\r\n   });\r\n});\n\n//# sourceURL=webpack://ctm-bitrix/./js/humburger.js?");
+eval("document.addEventListener('DOMContentLoaded', () => {\r\n   const hum = document.querySelector('.header__humburger');\r\n   const spans = document.querySelectorAll('.header__span');\r\n   const aside = document.querySelector('aside');\r\n   const html = document.querySelector('html');\r\n\r\n   hum.addEventListener('click', () => {\r\n      hum.classList.toggle('header__humburger_active');\r\n      spans.forEach(span => span.classList.toggle('header__span_active'));\r\n\r\n      if(!aside.classList.contains('aside_active')) {\r\n         openAside();\r\n      } else {\r\n         closeAside();\r\n      }\r\n   });\r\n\r\n   function openAside() {\r\n      aside.classList.add('aside_active');\r\n      html.classList.add('overflow-hd');\r\n   }\r\n   function closeAside() {\r\n      aside.classList.remove('aside_active');\r\n      html.classList.remove('overflow-hd');\r\n   }\r\n});\n\n//# sourceURL=webpack://ctm-bitrix/./js/humburger.js?");
 
 /***/ }),
 

@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .aside {
+    display: block;
+    height: calc(100vh - 85px);
+    width: 100%;
+    background: $red;
+    position: absolute;
+    top: 85px;
+    left: -100%;
+    transition: 0.2s all linear;
+  }
+  .aside_active {
+    left: 0;
+  }
+}
