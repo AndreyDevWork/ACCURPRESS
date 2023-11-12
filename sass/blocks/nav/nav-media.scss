@@ -19,3 +19,13 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .nav {
+    &__list {
+      .title16 {
+        font-size: 10px;
+      }
+    }
+  }
+}

@@ -21,3 +21,12 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .card {
+    height: auto;
+    min-width: 286px;
+    width: 286px;
+    padding: 15px 10px;
+  }
+}

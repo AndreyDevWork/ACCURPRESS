@@ -10,3 +10,12 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .equipment {
+    &__content {
+      display: flex;
+      overflow: auto;
+    }
+  }
+}

@@ -7,7 +7,16 @@ document.addEventListener('DOMContentLoaded', () => {
         slidesToShow: 3,
         slidesToScroll: 3,
         prevArrow: $('.action .arrow-left'),
-        nextArrow: $('.action .arrow-right')
+        nextArrow: $('.action .arrow-right'),
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            }
+        ]
     });
 
 

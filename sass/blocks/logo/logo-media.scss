@@ -8,11 +8,15 @@
     width: 170px;
   }
 }
+@media (max-width: 992px) {
+  .logo {
+    width: 140px;
+  }
+}
 
 
 
-
-@media (max-width: 576px) {
+@media (max-width:  768px) {
   .logo {
     width: 220px;
   }
