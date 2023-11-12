@@ -1,0 +1,9 @@
+
+@media (max-width: 1200px) {
+  .banner {
+    min-height: 500px;
+    &__wrapper {
+      padding-top: 80px;
+    }
+  }
+}

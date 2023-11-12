@@ -1,0 +1,12 @@
+@media (max-width: 1580px) {
+  .equipment {
+    &__content {
+      column-gap: 20px;
+      row-gap: 50px;
+    }
+    &__wrapper {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+}

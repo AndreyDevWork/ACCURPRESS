@@ -1,0 +1,7 @@
+@media (max-width: 1580px) {
+  .card .object-fit {
+    object-fit: contain;
+  }
+}
+
+/*# sourceMappingURL=card-media.css.map */

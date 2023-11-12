@@ -1,0 +1,21 @@
+@media (max-width: 1580px) {
+  .form {
+    &__wrapper {
+      column-gap: 30px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .form {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &__form {
+      margin-top: 25px;
+      row-gap: 20px;
+    }
+    .title46 {
+      font-size: 32px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@media (max-width: 1580px) {
+  .get {
+    &__form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 20px;
+    }
+    &__input {
+      max-width: 100%;
+    }
+  }
+}

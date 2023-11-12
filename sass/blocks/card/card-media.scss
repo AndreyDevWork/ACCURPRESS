@@ -1,0 +1,23 @@
+@media (max-width: 1580px) {
+  .card {
+    .object-fit {
+      object-fit: contain;
+    }
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .card {
+    &__wrapper-img {
+      height: 182px;
+    }
+    &__btns {
+      flex-direction: column;
+      row-gap: 18px;
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+}

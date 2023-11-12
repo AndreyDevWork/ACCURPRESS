@@ -1,0 +1,21 @@
+@media (max-width: 1580px) {
+  .nav {
+    &__list {
+      column-gap: 20px;
+      .title16 {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav {
+    &__list {
+      column-gap: 15px;
+      .title16 {
+        font-size: 12px;
+      }
+    }
+  }
+}
