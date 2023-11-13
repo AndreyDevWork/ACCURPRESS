@@ -2353,5 +2353,14 @@ textarea.input {
     grid-template-columns: 240px minmax(300px, 1152px);
   }
 }
+@media (max-width: 768px) {
+  .product {
+    padding-bottom: 0;
+  }
+  .product__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
