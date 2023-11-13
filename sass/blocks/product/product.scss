@@ -29,6 +29,9 @@
   }
   &__content {
     display: none;
+    .btn {
+      display: none;
+    }
   }
   [data-product-content] {
     display: block;

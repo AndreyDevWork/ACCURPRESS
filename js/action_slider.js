@@ -63,6 +63,14 @@ document.addEventListener('DOMContentLoaded', () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         prevArrow: $('.product .arrow-left'),
-        nextArrow: $('.product .arrow-right')
+        nextArrow: $('.product .arrow-right'),
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    dots: true,
+                }
+            },
+        ]
     });
 });
