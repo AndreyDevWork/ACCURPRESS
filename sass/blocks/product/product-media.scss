@@ -24,3 +24,12 @@
     }
   }
 }
+
+
+@media (max-width: 992px) {
+  .product {
+    &__wrapper {
+      grid-template-columns: 240px minmax(300px, 1152px);
+    }
+  }
+}

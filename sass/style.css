@@ -2348,5 +2348,10 @@ textarea.input {
     object-fit: contain;
   }
 }
+@media (max-width: 992px) {
+  .product__wrapper {
+    grid-template-columns: 240px minmax(300px, 1152px);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
