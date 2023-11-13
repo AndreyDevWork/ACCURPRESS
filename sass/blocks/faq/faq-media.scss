@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .faq {
+    padding-bottom: 60px;
+    .title16 {
+      font-size: 16px;
+    }
+    &__body {
+      padding-right: 0;
+    }
+  }
+}

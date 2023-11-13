@@ -20,6 +20,10 @@
     width: 100%;
     justify-content: space-between;
   }
+  &__promo-mob {
+    display: none;
+    position: static;
+  }
   &__info {
     display: flex;
     column-gap: 13px;

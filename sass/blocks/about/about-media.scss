@@ -1,0 +1,35 @@
+
+@media (max-width: 1200px) {
+  .about {
+    &__wrapper {
+      grid-template-columns: minmax(300px, 806px) minmax(200px, 345px);
+    }
+  }
+}
+
+
+@media (max-width: 992px) {
+  .about {
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+    }
+    .about__img {
+      height: 400px;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .about {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    .about__img {
+      height: 280px;
+    }
+  }
+}
+
+

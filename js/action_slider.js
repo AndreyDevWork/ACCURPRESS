@@ -32,7 +32,30 @@ document.addEventListener('DOMContentLoaded', () => {
         slidesToShow: 6,
         slidesToScroll: 6,
         prevArrow: $('.partner .arrow-left'),
-        nextArrow: $('.partner .arrow-right')
+        nextArrow: $('.partner .arrow-right'),
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 5,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     });
 
     $('.product .product__slider').slick({

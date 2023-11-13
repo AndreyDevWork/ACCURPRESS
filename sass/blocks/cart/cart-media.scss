@@ -1,0 +1,30 @@
+@media (max-width: 992px) {
+  .cart {
+    &__promo {
+      column-gap: 20px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .cart {
+    &__promo {
+      display: none;
+    }
+    &__promo-mob {
+      display: flex;
+      transform: none;
+      flex-direction: column;
+      row-gap: 26px;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    &__info {
+      max-width: 100%;
+    }
+  }
+
+  .control {
+    max-width: 100%;
+  }
+}

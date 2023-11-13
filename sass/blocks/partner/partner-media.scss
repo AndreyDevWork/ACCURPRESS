@@ -1,0 +1,11 @@
+@media (max-width: 576px) {
+  .partner {
+    padding-bottom: 60px;
+    .action__slider {
+      width: 70%;
+      .slick-list {
+        overflow: visible;
+      }
+    }
+  }
+}

@@ -28,11 +28,13 @@
   }
   &__sircle {
     width: 35px;
+    min-width: 35px;
     height: 35px;
     stroke-width: 2px;
     background: $red;
     border: 2px solid $red;
   }
+
   .accordion__sircle_active {
     background: #F2F2F2;
     .white {
