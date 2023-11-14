@@ -1686,7 +1686,7 @@ textarea.input {
 .service {
   background: #F6F6F6;
   padding-top: 80px;
-  padding-bottom: 150px;
+  padding-bottom: 85px;
 }
 .service__accordion {
   margin-top: 35px;
@@ -1993,6 +1993,7 @@ textarea.input {
 @media (max-width: 768px) {
   .ctg-banner {
     min-height: 371px;
+    background-position: 58% 135% !important;
   }
   .ctg-banner__wrapper {
     padding-top: 150px;
