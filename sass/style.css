@@ -2260,6 +2260,9 @@ textarea.input {
   position: relative;
   border: 1px solid #F1F1F1;
 }
+.product__contents .action__arrows {
+  display: none;
+}
 .product__content {
   display: none;
 }
@@ -2374,6 +2377,9 @@ textarea.input {
   .product__content .btn {
     display: flex;
     text-align: center;
+  }
+  .product__content .action__arrows {
+    display: flex;
   }
   .product__slider-wr {
     display: block;

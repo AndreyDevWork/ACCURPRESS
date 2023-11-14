@@ -26,6 +26,9 @@
     padding: 50px 40px 35px 40px;
     position: relative;
     border: 1px solid #F1F1F1;
+    .action__arrows {
+      display: none;
+    }
   }
   &__content {
     display: none;
